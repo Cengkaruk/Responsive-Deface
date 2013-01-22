@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Deface Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Deface Template">
+    <meta name="author" content="Aji Kisworo Mukti">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      background: black;
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      background: url(assets/img/digital-rain.svg) left 0px, url(assets/img/digital-rain.svg) 50px 0px, url(assets/img/digital-rain2.svg) right 0px;
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      -o-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform: translateZ(-100px);
+      -moz-transform: translateZ(-100px);
+      -ms-transform: translateZ(-100px);
+      -o-transform: translateZ(-100px);
+      transform: translateZ(-100px);
+      -webkit-animation: rain 3s infinite linear;
+      -moz-animation: rain 3s infinite linear;
+      -ms-animation: rain 3s infinite linear;
+      -o-animation: rain 3s infinite linear;
+      animation: rain 3s infinite linear;
+    }
+
+    @-webkit-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-moz-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-ms-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @-o-keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+    @keyframes rain {
+      from { background-position: left 0px, 40px 0px, left 0px; }
+      to   { background-position: left 200px, 40px 200px, left 300px; }
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <br><br>
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="assets/img/logo.jpeg">
+        <h2 class="featurette-heading">@Cengkaruk was here! <span class="muted">It'll blow your mind.</span></h2>
+        <p class="lead">Kala senja menyapa dalam kesendirian, terpaku menuju gelap malam. Kuberlari sejauh dapat kuberlari, diujung jari ku dapat menari.</p>
+      </div>
+
+      
+      <br><br>
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="assets/img/logo.jpeg">
+        <h2 class="featurette-heading">Aku terSurhat. <span class="muted">Aku harus gimana?</span></h2>
+        <p class="lead">Tak ada tawamu dalam senyumku, tak ada candamu dalam tidurku. Aku tidur dewean...</p>
+      </div>
+
+      
+      <br><br>
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="assets/img/logo.jpeg">
+        <h2 class="featurette-heading">Kenapa? <span class="muted">Buat Apa?</span></h2>
+        <p class="lead">Entahlah.</p>
+      </div>
+
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37861665-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+  </body>
+</html>
